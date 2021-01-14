@@ -1,0 +1,38 @@
+.MarkRibbon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30px;
+    height: 45px;
+}
+
+.MarkRibbonImage{
+    width: 30px;
+    height: 45px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    fill: rgba(11, 10, 9, 0.6);
+    z-index: 1;
+}
+
+.MarkRibbon:hover {
+    cursor: pointer;
+}
+
+.MarkRibbon:hover .MarkRibbonImage{
+    fill: rgba(255, 131, 0, 0.78);
+}
+
+.Star{
+    fill: #fff;
+}
+
+.StarWrapper{
+    position: absolute;
+    top: 3px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 15;
+}
