@@ -4,11 +4,22 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {BrowserRouter} from "react-router-dom";
+import { Provider } from 'react-redux';
+import { createStore, applyMiddleware, compose, combineReducers } from "redux";
+import mainReducer from "./store/reducers/mainReducer";
+
+const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
+
+const rootReducer = combineReducers(mainReducer);
+
+const store = createStore(mainReducer, composeEnhancers());
 
 const app = (
-  <BrowserRouter>
-      <App/>
-  </BrowserRouter>
+    <Provider store={store}>
+      <BrowserRouter>
+          <App/>
+      </BrowserRouter>
+    </Provider>
 );
 
 ReactDOM.render(

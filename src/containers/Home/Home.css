@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 .Home {
     background-color: salmon;
@@ -19,13 +20,83 @@
     height: 100%;
 }
 
+.TrailerControlsContainer{
+    height: auto;
+    width: auto;
+    position: absolute;
+    left: 190px;
+    bottom: 0;
+    display: flex;
+    flex-direction: row;
+    flex-flow: row;
+    z-index: 20;
+}
+.TrailerPlayButtonWrapper{
+    display: block;
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+}
+.TrailerTextWrapper{
+    display: block;
+}
+.TrailerTitleAndLengthWrapper{
+    width: auto;
+    height: fit-content;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-flow: row;
+}
+
+.TrailerTitle {
+    display: block;
+    font-family: 'Lato', sans-serif;
+    font-size: 36px;
+    color: white;
+    max-width: 550px;
+    word-wrap: break-word;
+    text-align: left;
+
+}
+
+.TrailerDescription{
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    font-family: 'Lato', sans-serif;
+    font-size: 26px;
+    color: #ccc;
+    max-width: 550px;
+    word-wrap: break-word;
+    text-align: left;
+}
+
+.TrailerLengthWrapper{
+    width: 60px;
+    display: flex;
+    position: relative;
+}
+
+.TrailerLength{
+    display: block;
+    position: absolute;
+    bottom: 4px;
+    right: 0;
+    font-family: 'Lato', sans-serif;
+    font-size: 22px;
+    color: #ccc;
+}
+.TrailerControlsWrapper{
+    position: relative;
+}
+
 .ReviewList{
     display: flex;
     flex-direction: column;
     flex-flow: column;
     width: 300px;
     margin-left: 20px;
-
     height: 100%;
 }
 

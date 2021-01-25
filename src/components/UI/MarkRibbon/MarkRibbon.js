@@ -4,7 +4,7 @@ import { BsStarFill } from "react-icons/all";
 import classes from './MarkRibbon.css';
 
 const markRibbon = (props) => (
-    <div className={classes.MarkRibbon}>
+    <div className={classes.MarkRibbon} onClick={props.clicked}>
         <div className={classes.StarWrapper}>
             <BsStarFill className={classes.Star}/>
         </div>

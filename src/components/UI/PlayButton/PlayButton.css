@@ -1,0 +1,32 @@
+.PlayButton{
+    height: 100%;
+    width: 100%;
+}
+
+.cls1{
+    fill:none;
+    stroke-width:6px;
+}
+
+.cls1,.cls2{
+    stroke:#fff;
+    stroke-miterlimit:10;
+}
+
+.cls2{
+    stroke-width:5px;
+    fill: #fff;
+}
+
+.PlayButton:hover{
+    cursor: pointer;
+}
+
+.PlayButton:hover .cls1{
+    stroke: #f3d34a;
+}
+
+.PlayButton:hover .cls2 {
+    fill: #f3d34a;
+    stroke: #f3d34a;
+}
