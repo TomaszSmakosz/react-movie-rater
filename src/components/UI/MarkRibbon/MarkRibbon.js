@@ -11,10 +11,7 @@ const markRibbon = (props) => (
         <svg id="Warstwa_1" data-name="Warstwa 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 150" className={classes.MarkRibbonImage}>
             <polygon className="cls-1" points="0 0 0 150 50 104.42 100 150 100 0 0 0"/>
         </svg>
-
-
     </div>
-
 );
 
 export default markRibbon;

@@ -1,0 +1,13 @@
+.CarouselMovieImageWrapper{
+    display: block;
+    position: relative;
+    margin: 15px 10px 15px 10px;
+    height: 260px;
+    width: 173px;
+}
+
+.CarouselMovieImage{
+    display: block;
+    height: 100%;
+    width: 100%;
+}

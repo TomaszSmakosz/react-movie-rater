@@ -6,12 +6,11 @@ import MarkRibbon from '../../components/UI/MarkRibbon/MarkRibbon';
 import PlayButton from '../../components/UI/PlayButton/PlayButton';
 import * as actions from '../../store/actions/home';
 
-
 import imgBig from '../../assets/images/django_big.jpg';
 import imgSmall from '../../assets/images/django_small.jpg';
 
-
 import classes from './Home.css';
+import MovieTrailersCarousel from "../MovieTrailersCarousel/MovieTrailersCarousel";
 
 class Home extends Component{
     render() {
@@ -58,38 +57,7 @@ class Home extends Component{
                         </div>
                     </div>
                 </div>
-                <div className={classes.MovieTrailerCarousel}>
-                    <div className={classes.MovieImageWrapper}>
-                        <img src={imgSmall} className={classes.MovieImage}/>
-                        <MarkRibbon clicked={() => this.props.onAddedToWatchlist(1)}/>
-                    </div>
-                    <div className={classes.MovieImageWrapper}>
-                        <img src={imgSmall} className={classes.MovieImage}/>
-                        <MarkRibbon clicked={() => this.props.onAddedToWatchlist(2)}/>
-                    </div>
-                    <div className={classes.MovieImageWrapper}>
-                        <img src={imgSmall} className={classes.MovieImage}/>
-                        <MarkRibbon clicked={() => this.props.onAddedToWatchlist(3)}/>
-                    </div>
-                    <div className={classes.MovieImageWrapper}>
-                        <img src={imgSmall} className={classes.MovieImage}/>
-                        <MarkRibbon clicked={() => this.props.onAddedToWatchlist(4)}/>
-                    </div>
-                    <div className={classes.MovieImageWrapper}>
-                        <img src={imgSmall} className={classes.MovieImage}/>
-                        <MarkRibbon clicked={() => this.props.onAddedToWatchlist(5)}/>
-                    </div>
-                    <div className={classes.MovieImageWrapper}>
-                        <img src={imgSmall} className={classes.MovieImage}/>
-                        <MarkRibbon clicked={() => this.props.onAddedToWatchlist(6)}/>
-                    </div>
-
-
-                    <div className={classes.SelectionFrame}/>
-                    <div className={classes.ChevronLeft}/>
-                    <div className={classes.ChevronRight}/>
-
-                </div>
+                <MovieTrailersCarousel/>
             </Aux>
         );
     }
@@ -98,6 +66,7 @@ class Home extends Component{
 const mapStateToProps = state => {
     return {
         watchList: state.watchList,
+        moviesList: state.moviesList,
     };
 }
 

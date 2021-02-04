@@ -2,7 +2,45 @@ import * as actionTypes from '../actions/actionTypes';
 import { updateObject } from "../utility";
 
 const initialState = {
-    watchList: [1]
+    watchList: [],
+    moviesList: [
+        {
+            id: "xyz1",
+            imgUrl: "not_assigned",
+            movieName: "Django",
+            description: "With the help of a German bounty hunter, a freed slave sets out to rescue his wife from a brutal Mississippi plantation owner."
+        },
+        {
+            id: "xyz12",
+            imgUrl: "not_assigned",
+            movieName: "Django",
+            description: "With the help of a German bounty hunter, a freed slave sets out to rescue his wife from a brutal Mississippi plantation owner."
+        },
+        {
+            id: "xyz123",
+            imgUrl: "not_assigned",
+            movieName: "Django",
+            description: "With the help of a German bounty hunter, a freed slave sets out to rescue his wife from a brutal Mississippi plantation owner."
+        },
+        {
+            id: "xyz1234",
+            imgUrl: "not_assigned",
+            movieName: "Django",
+            description: "With the help of a German bounty hunter, a freed slave sets out to rescue his wife from a brutal Mississippi plantation owner."
+        },
+        {
+            id: "xyz12345",
+            imgUrl: "not_assigned",
+            movieName: "Django",
+            description: "With the help of a German bounty hunter, a freed slave sets out to rescue his wife from a brutal Mississippi plantation owner."
+        },
+        {
+            id: "xyz123456",
+            imgUrl: "not_assigned",
+            movieName: "Django",
+            description: "With the help of a German bounty hunter, a freed slave sets out to rescue his wife from a brutal Mississippi plantation owner."
+        },
+    ]
 };
 
 const addToWatchlist = (state, action) => {

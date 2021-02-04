@@ -1,0 +1,55 @@
+.ChevronRight{
+    border-right: 10px solid;
+    border-bottom: 10px solid;
+    border-color: #ccc;
+    height: 30px;
+    width: 30px;
+    transform: rotate(-45deg) translateY(-50%);
+    position: absolute;
+    top: 50%;
+    right: 0;
+}
+
+.ChevronRight:hover{
+    border-color: #f3d34a;
+    cursor: pointer;
+}
+
+.ChevronLeft{
+    border-left: 10px solid;
+    border-bottom: 10px solid;
+    border-color: #ccc;
+    height: 30px;
+    width: 30px;
+    transform: rotate(45deg) translateY(-50%);
+    position: absolute;
+    top: 50%;
+    left: 0;
+}
+
+.ChevronLeft:hover{
+    border-color: #f3d34a;
+    cursor: pointer;
+}
+
+.SelectionFrame{
+    border: 4px solid #f3d34a;
+    height: 260px;
+    width: 173px;
+    margin: 11px;
+    left: 66px;
+    position: absolute;
+    z-index: -10;
+}
+
+.MovieTrailerCarousel{
+    height: 290px;
+    width: 100%;
+    margin-top: 60px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-flow: row;
+    align-items: center;
+    justify-content: center;
+}
