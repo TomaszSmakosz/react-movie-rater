@@ -1,0 +1,38 @@
+.ChevronRight{
+    height: 60px;
+    width: 30px;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+}
+
+.ChevronRight:hover{
+    cursor: pointer;
+}
+
+.ChevronRight:hover .cls1{
+    fill: #f3d34a;
+}
+
+.ChevronLeft{
+    height: 60px;
+    width: 30px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.ChevronLeft:hover{
+    cursor: pointer;
+}
+
+.ChevronLeft:hover .cls2{
+    fill: #f3d34a;
+    cursor: pointer;
+}
+
+.cls1{fill:#ccc;}
+
+.cls2{fill:#ccc;}
