@@ -1,0 +1,16 @@
+.ReviewList{
+    display: flex;
+    flex-direction: column;
+    flex-flow: column;
+    width: 300px;
+    margin-left: 20px;
+    height: 100%;
+}
+
+.ReviewList span{
+    display: block;
+    text-align: left;
+    font-size: 32px;
+    color: #f3d34a;
+    font-family: 'Oswald', sans-serif;
+}

@@ -1,0 +1,126 @@
+.MovieTrailer{
+    display: block;
+    position: relative;
+    width: 1000px;
+    height: 100%;
+}
+
+.MovieTrailerControlsContainer{
+    height: auto;
+    width: auto;
+    position: absolute;
+    left: 190px;
+    bottom: 0;
+    display: flex;
+    flex-direction: row;
+    flex-flow: row;
+    z-index: 20;
+}
+.MovieTrailerPlayButtonWrapper{
+    display: block;
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+}
+.MovieTrailerTextWrapper{
+    display: block;
+}
+.MovieTrailerTitleAndLengthWrapper{
+    width: auto;
+    height: fit-content;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-flow: row;
+}
+
+.MovieTrailerTitle {
+    display: block;
+    font-family: 'Lato', sans-serif;
+    font-size: 36px;
+    color: white;
+    max-width: 550px;
+    word-wrap: break-word;
+    text-align: left;
+
+}
+
+.MovieTrailerDescription{
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    font-family: 'Lato', sans-serif;
+    font-size: 26px;
+    color: #ccc;
+    max-width: 550px;
+    word-wrap: break-word;
+    text-align: left;
+}
+
+.MovieTrailerLengthWrapper{
+    width: 60px;
+    display: flex;
+    position: relative;
+}
+
+.MovieTrailerLength{
+    display: block;
+    position: absolute;
+    bottom: 4px;
+    right: 0;
+    font-family: 'Lato', sans-serif;
+    font-size: 22px;
+    color: #ccc;
+}
+.MovieTrailerControlsWrapper{
+    position: relative;
+}
+
+
+.MovieImageCard{
+    height: 100%;
+    width: 100%;
+}
+.MovieImageCardWrapper{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.MovieImageCardContainer{
+    height: 225px;
+    width: 150px;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    z-index: 10;
+}
+
+.MovieImage{
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+.MovieImageWrapper{
+    display: block;
+    position: relative;
+    margin: 15px 10px 15px 10px;
+    height: 260px;
+    width: 173px;
+}
+
+.MovieTrailerImage{
+    height: 100%;
+    width: 100%;
+}
+
+.MovieTrailerImageGradient{
+    height: 70%;
+    width: 100%;
+    position: absolute;
+    bottom: -60px;
+    background: rgb(11,10,9);
+    background: linear-gradient(0deg, rgba(11,10,9,1) 20%, rgba(255,255,255,0) 100%);
+}
+

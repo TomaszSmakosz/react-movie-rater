@@ -1,0 +1,18 @@
+.Review{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: block;
+    position: relative;
+    height: 250px;
+    width: 100%;
+    background-color: #221f1b;
+}
+
+.ReviewGradient{
+    height: 60%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background: rgb(11,10,9);
+    background: linear-gradient(0deg, rgba(11,10,9,1) 15%, rgba(255,255,255,0) 100%);
+}
