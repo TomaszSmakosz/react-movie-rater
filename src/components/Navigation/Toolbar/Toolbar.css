@@ -1,15 +1,10 @@
-.Toolbar {
+.ToolbarWrapper {
     height: 56px;
     width: 100%;
     position: fixed;
     top: 0;
     left: 0;
-    background-color: #221f1b;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 20px;
-    box-sizing: border-box;
+    background-color: #1c1916;
     z-index: 90;
 }
 
@@ -25,4 +20,15 @@
     .DesktopOnly {
         display: none;
     }
+}
+
+.Toolbar{
+    max-width: 1300px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
 }
