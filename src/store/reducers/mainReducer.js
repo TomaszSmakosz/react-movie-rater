@@ -6,39 +6,57 @@ const initialState = {
     moviesList: [
         {
             id: "xyz1",
-            imgUrl: "not_assigned",
+            smallImgUrl: "https://i.imgur.com/GimFZPl.jpg",
             movieName: "Django",
-            description: "With the help of a German bounty hunter, a freed slave sets out to rescue his wife from a brutal Mississippi plantation owner."
+            description: "With the help of a German bounty hunter, a freed slave sets out to rescue his wife from a brutal Mississippi plantation owner.",
+            bigImgUrl: "https://i.imgur.com/RLINeIT.jpeg",
+            info: "Watch Trailer",
+            time: "2:37"
         },
         {
             id: "xyz12",
-            imgUrl: "not_assigned",
-            movieName: "Django",
-            description: "With the help of a German bounty hunter, a freed slave sets out to rescue his wife from a brutal Mississippi plantation owner."
+            smallImgUrl: "https://m.media-amazon.com/images/M/MV5BZTMyY2Q2MDctMDFlMS00MWEzLTk1NmEtNDcxNzg1ZGJlNGU5XkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_UX280_CR0,0,280,414_.jpg",
+            movieName: "Coming 2 America",
+            description: "The African monarch Akeem learns he has a long-lost son in the United States and must return to America to meet this unexpected heir and build a relationship with his son.",
+            bigImgUrl: "https://m.media-amazon.com/images/M/MV5BZTE1MzA0NWQtODA0Ny00MDViLWIzNzEtNWY3YjkyZDk3OGJjXkEyXkFqcGdeQXVyMDc2NTEzMw@@._V1_QL40_UX1000_CR0,0,1000,563_.jpg%201000w",
+            info: "Watch the Super Bowl Spot",
+            time: "0:31"
         },
         {
             id: "xyz123",
-            imgUrl: "not_assigned",
+            smallImgUrl: "https://i.imgur.com/GimFZPl.jpg",
             movieName: "Django",
-            description: "With the help of a German bounty hunter, a freed slave sets out to rescue his wife from a brutal Mississippi plantation owner."
+            description: "With the help of a German bounty hunter, a freed slave sets out to rescue his wife from a brutal Mississippi plantation owner.",
+            bigImgUrl: "https://i.imgur.com/RLINeIT.jpeg",
+            info: "Watch Trailer",
+            time: "2:37"
         },
         {
             id: "xyz1234",
-            imgUrl: "not_assigned",
-            movieName: "Django",
-            description: "With the help of a German bounty hunter, a freed slave sets out to rescue his wife from a brutal Mississippi plantation owner."
+            smallImgUrl: "https://m.media-amazon.com/images/M/MV5BZTMyY2Q2MDctMDFlMS00MWEzLTk1NmEtNDcxNzg1ZGJlNGU5XkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_UX280_CR0,0,280,414_.jpg",
+            movieName: "Coming 2 America",
+            description: "The African monarch Akeem learns he has a long-lost son in the United States and must return to America to meet this unexpected heir and build a relationship with his son.",
+            bigImgUrl: "https://m.media-amazon.com/images/M/MV5BZTE1MzA0NWQtODA0Ny00MDViLWIzNzEtNWY3YjkyZDk3OGJjXkEyXkFqcGdeQXVyMDc2NTEzMw@@._V1_QL40_UX1000_CR0,0,1000,563_.jpg%201000w",
+            info: "Watch the Super Bowl Spot",
+            time: "0:31"
         },
         {
             id: "xyz12345",
-            imgUrl: "not_assigned",
+            smallImgUrl: "https://i.imgur.com/GimFZPl.jpg",
             movieName: "Django",
-            description: "With the help of a German bounty hunter, a freed slave sets out to rescue his wife from a brutal Mississippi plantation owner."
+            description: "With the help of a German bounty hunter, a freed slave sets out to rescue his wife from a brutal Mississippi plantation owner.",
+            bigImgUrl: "https://i.imgur.com/RLINeIT.jpeg",
+            info: "Watch Trailer",
+            time: "2:37"
         },
         {
             id: "xyz123456",
-            imgUrl: "not_assigned",
-            movieName: "Django",
-            description: "With the help of a German bounty hunter, a freed slave sets out to rescue his wife from a brutal Mississippi plantation owner."
+            smallImgUrl: "https://m.media-amazon.com/images/M/MV5BZTMyY2Q2MDctMDFlMS00MWEzLTk1NmEtNDcxNzg1ZGJlNGU5XkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_UX280_CR0,0,280,414_.jpg",
+            movieName: "Coming 2 America",
+            description: "The African monarch Akeem learns he has a long-lost son in the United States and must return to America to meet this unexpected heir and build a relationship with his son.",
+            bigImgUrl: "https://m.media-amazon.com/images/M/MV5BZTE1MzA0NWQtODA0Ny00MDViLWIzNzEtNWY3YjkyZDk3OGJjXkEyXkFqcGdeQXVyMDc2NTEzMw@@._V1_QL40_UX1000_CR0,0,1000,563_.jpg%201000w",
+            info: "Watch the Super Bowl Spot",
+            time: "0:31"
         },
     ]
 };

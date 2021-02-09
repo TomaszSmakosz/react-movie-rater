@@ -8,11 +8,32 @@ import MovieTrailersCarousel from "../MovieTrailersCarousel/MovieTrailersCarouse
 import MovieTrailerPreview from "../../components/MovieTrailerPreview/MovieTrailerPreview";
 
 class Home extends Component{
+
+    constructor(props) {
+        super(props);
+        this.state = {selectedMovieTrailer: props.moviesList[0]}
+    }
+
+    onSelectChanged(id){
+        const selectedMovieTrailer = this.props.moviesList
+            .find(movieTrailer => {
+                return movieTrailer.id === id;
+        });
+        this.setState({selectedMovieTrailer: selectedMovieTrailer});
+    }
+
     render() {
         return (
             <Aux>
-                <MovieTrailerPreview/>
-                <MovieTrailersCarousel/>
+                <MovieTrailerPreview
+                    movieTrailer={this.state.selectedMovieTrailer}
+                    onAddedToWatchlist={(id) => this.props.onAddedToWatchlist(id)}
+                />
+                <MovieTrailersCarousel
+                    onSelectChanged={id => this.onSelectChanged(id)}
+                    moviesList={this.props.moviesList}
+                    onAddedToWatchlist={(id) => this.props.onAddedToWatchlist(id)}
+                />
             </Aux>
         );
     }

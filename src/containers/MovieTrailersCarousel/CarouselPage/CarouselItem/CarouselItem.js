@@ -1,10 +1,8 @@
 import React, {useRef, useEffect} from 'react';
 import classes from "./CarouselItem.css";
-import imgSmall from "../../../../assets/images/django_small.jpg";
 import MarkRibbon from "../../../../components/UI/MarkRibbon/MarkRibbon";
 
 function CarouselItem (props) {
-//const CarouselItem = (props) => {
     const itemRef = useRef(null);
     useEffect(()=>{
         if(props.index===0){
@@ -14,7 +12,7 @@ function CarouselItem (props) {
     return (
     <div className={classes.CarouselItem} ref={itemRef}>
         <img
-            src={imgSmall}
+            src={props.imgUrl}
             className={classes.CarouselItemMovieImage}
             onClick={() => props.onTrailerSelected(props.movieId, itemRef.current.getBoundingClientRect().x)}/>
         <MarkRibbon clicked={() => props.onAddedToWatchlist(props.movieId)}/>

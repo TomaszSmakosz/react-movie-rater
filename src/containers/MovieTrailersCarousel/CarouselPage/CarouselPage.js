@@ -13,6 +13,7 @@ const carouselPage = (props) => {
                     onAddedToWatchlist={(id) => props.onAddedToWatchlist(id)}
                     onTrailerSelected={(id,x) => props.onTrailerSelected(id,x)}
                     index={index}
+                    imgUrl={item.smallImgUrl}
                 />
             );
         });

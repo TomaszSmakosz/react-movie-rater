@@ -6,7 +6,9 @@ import ReviewList from "./ReviewList/ReviewList";
 const MovieTrailerPreview = (props) => {
     return (
         <div className={classes.MovieTrailerPreview}>
-            <MovieTrailer/>
+            <MovieTrailer
+                movieTrailer={props.movieTrailer}
+                onAddedToWatchlist={(id) => props.onAddedToWatchlist(id)}/>
             <ReviewList/>
         </div>
     );
